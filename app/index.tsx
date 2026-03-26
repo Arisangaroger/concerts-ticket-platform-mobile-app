@@ -13,7 +13,7 @@ export default function Onboarding() {
       />
       <Text className="text-2xl font-bold text-center">Live concerts, easy tickets</Text>
       <Text className="text-gray-500 text-center mt-2">
-        Discover events & buy tickets in seconds.
+        Discover events and buy tickets in seconds.
       </Text>
       <PrimaryButton onPress={() => router.replace('tabs/explore')}>
         Get Started
