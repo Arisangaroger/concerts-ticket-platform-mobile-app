@@ -3,7 +3,7 @@ import { Concert } from '../types/concert';
 export const concerts: Concert[] = [
   {
     id: '1',
-    artist: 'Midnight Pulse',
+    artist: 'Bruce Melodie',
     date: 'Oct 10, 2025',
     location: 'Kigali Arena',
     price: 25,
