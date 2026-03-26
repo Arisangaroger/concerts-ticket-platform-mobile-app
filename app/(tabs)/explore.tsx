@@ -8,7 +8,7 @@ export default function Explore() {
 
   return (
     <View className="flex-1 bg-gray-50">
-      <Text className="text-2xl font-bold p-4">Discover</Text>
+      <Text className="text-2xl font-bold p-4">Discover new Concerts</Text>
       <FlatList
         data={concerts}
         keyExtractor={(item) => item.id}
