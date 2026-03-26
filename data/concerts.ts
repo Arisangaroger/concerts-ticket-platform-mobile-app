@@ -12,7 +12,7 @@ export const concerts: Concert[] = [
   },
   {
     id: '2',
-    artist: 'Rising Echoes',
+    artist: 'The Ben',
     date: 'Nov 5, 2025',
     location: 'City Park Amphitheater',
     price: 40,
