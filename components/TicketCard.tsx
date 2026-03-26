@@ -7,7 +7,7 @@ export default function TicketCard({ ticket }: { ticket: Ticket }) {
     <View className="bg-white rounded-2xl p-4 my-2">
       <Text className="text-lg font-bold">{ticket.artist}</Text>
       <Text className="text-gray-500">{ticket.date} • {ticket.location}</Text>
-      <Text className="text-xs text-gray-400 mt-1">Purchased At: {new Date(ticket.purchasedAt).toLocaleString()}</Text>
+      <Text className="text-xs text-gray-400 mt-1">Purchased at: {new Date(ticket.purchasedAt).toLocaleString()}</Text>
       <QRCode value={ticket.ticketId} size={100} className="mt-2" />
     </View>
   );
